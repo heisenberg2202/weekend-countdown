@@ -1,0 +1,40 @@
+@font-face {
+  font-family: Roboto Mono;
+  src: url(./fonts/RobotoMono-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: Arvo;
+  src: url(./fonts/Arvo-Bold.ttf);
+}
+
+article{
+  text-align: center;
+  margin: auto;
+  width: 50%;
+  padding: 5rem;
+  color: white;
+  font-size: 1.8rem;
+  font-family: 'Arvo';
+
+}
+
+body {
+	background: linear-gradient(-45deg, #aa3e98, #5c677d, #0c7489, #02c39a);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+  overflow: hidden;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
